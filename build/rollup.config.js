@@ -10,7 +10,7 @@ const BUNDLE  = process.env.BUNDLE === 'true'
 const year    = new Date().getFullYear()
 
 let fileDest  = 'coreui.js'
-const external = ['jquery', 'perfect-scrollbar']
+const external = ['jquery', 'perfect-scrollbar', 'popper.js']
 const plugins = [
   resolve(),
   commonjs(),
@@ -20,19 +20,22 @@ const plugins = [
       'defineProperties',
       'createClass',
       'inheritsLoose',
+      'defineProperty',
       'objectSpread'
     ]
   })
 ]
 const globals = {
   jquery: 'jQuery',
-  'perfect-scrollbar': 'PerfectScrollbar'
+  'perfect-scrollbar': 'PerfectScrollbar',
+  'popper.js': 'Popper'
 }
 
 if (BUNDLE) {
   fileDest = 'coreui.bundle.js'
   // Remove last entry in external array to bundle Popper
   external.pop()
+  delete globals['popper.js']
   plugins.push(resolve())
 }
 
