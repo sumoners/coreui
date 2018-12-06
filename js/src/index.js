@@ -1,8 +1,20 @@
 import './polyfill'
 import $ from 'jquery'
 import AjaxLoad from './ajax-load'
+import Alert from './bootstrap/alert'
 import AsideMenu from './aside-menu'
+import Button from './bootstrap/button'
+import Carousel from './bootstrap/carousel'
+import Collapse from './bootstrap/collapse'
+import Dropdown from './bootstrap/dropdown'
+import Modal from './bootstrap/modal'
+import Popover from './bootstrap/popover'
+import Scrollspy from './bootstrap/scrollspy'
 import Sidebar from './sidebar'
+import Tab from './bootstrap/tab'
+// import Toast from './bootstrap/toast'
+import Tooltip from './bootstrap/tooltip'
+import Util from './bootstrap/util'
 
 /**
  * --------------------------------------------------------------------------
@@ -29,9 +41,21 @@ import Sidebar from './sidebar'
 })($)
 
 export {
+  Util,
   AjaxLoad,
+  Alert,
   AsideMenu,
-  Sidebar
+  Button,
+  Carousel,
+  Collapse,
+  Dropdown,
+  Modal,
+  Popover,
+  Scrollspy,
+  Sidebar,
+  Tab,
+  // Toast,
+  Tooltip
 }
 
 // Global functions
