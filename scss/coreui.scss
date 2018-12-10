@@ -9,56 +9,62 @@
 // Override Boostrap variables
 @import "variables";
 
-// Import Bootstrap source files
-@import "node_modules/bootstrap/scss/bootstrap"; // from bootstrap node_modules
+@import "node_modules/bootstrap/scss/bootstrap-reboot"; // from bootstrap node_modules
+@import "node_modules/bootstrap/scss/bootstrap-grid"; // from bootstrap node_modules
+@import "node_modules/bootstrap/scss/utilities"; // from bootstrap node_modules
 
-// Mixins
-@import "mixins";
+.coreui-layout {
+  // Import Bootstrap source files
+  @import "node_modules/bootstrap/scss/bootstrap"; // from bootstrap node_modules
 
-// Animations
-@import "animate";
+  // Mixins
+  @import "mixins";
 
-// Vendors
-@import "vendors";
+  // Animations
+  @import "animate";
 
-// Components
-@import "aside";
-@import "avatars";
-@import "badge";
-@import "breadcrumb-menu";
-@import "breadcrumb";
-@import "brand-card";
-@import "brand-buttons";
-@import "buttons";
-@import "callout";
-@import "card";
-@import "charts";
-@import "dropdown";
-@import "footer";
-@import "grid";
-@import "header";
-@import "input-group";
-@import "images";
-@import "list-group";
-@import "modal";
-@import "nav";
-@import "progress";
-@import "progress-group";
-@import "sidebar";
-@import "switches";
-@import "tables";
-@import "widgets";
+  // Vendors
+  @import "vendors";
 
-// Layout Options
-@import "layout";
+  // Components
+  @import "aside";
+  @import "avatars";
+  @import "badge";
+  @import "breadcrumb-menu";
+  @import "breadcrumb";
+  @import "brand-card";
+  @import "brand-buttons";
+  @import "buttons";
+  @import "callout";
+  @import "card";
+  @import "charts";
+  @import "dropdown";
+  @import "footer";
+  @import "grid";
+  @import "header";
+  @import "input-group";
+  @import "images";
+  @import "list-group";
+  @import "modal";
+  @import "nav";
+  @import "progress";
+  @import "progress-group";
+  @import "sidebar";
+  @import "switches";
+  @import "tables";
+  @import "widgets";
 
-@import "others";
+  // Layout Options
+  @import "layout";
 
-// Utility classes
-@import "utilities";
+  @import "others";
 
-// Right-to-left
-@import "rtl";
+  // Utility classes
+  @import "utilities";
 
-// Custom Properties support for Internet Explorer
-@import "ie-custom-properties";
+  // Right-to-left
+  @import "rtl";
+
+  // Custom Properties support for Internet Explorer
+  @import "ie-custom-properties";
+}
