@@ -51,7 +51,7 @@
     return store[key] || (store[key] = value !== undefined ? value : {});
   })('versions', []).push({
     version: _core.version,
-    mode: _library ? 'pure' : 'global',
+    mode: 'global',
     copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
   });
   });
@@ -865,7 +865,7 @@
         // Set @@toStringTag to native iterators
         _setToStringTag(IteratorPrototype, TAG, true);
         // fix for some old engines
-        if (typeof IteratorPrototype[ITERATOR] != 'function') _hide(IteratorPrototype, ITERATOR, returnThis);
+        if (!_library && typeof IteratorPrototype[ITERATOR] != 'function') _hide(IteratorPrototype, ITERATOR, returnThis);
       }
     }
     // fix Array#{values, @@iterator}.name in V8 / FF
@@ -874,7 +874,7 @@
       $default = function values() { return $native.call(this); };
     }
     // Define iterator
-    if (BUGGY || VALUES_BUG || !proto[ITERATOR]) {
+    if ((!_library || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {
       _hide(proto, ITERATOR, $default);
     }
     // Plug for library
@@ -901,7 +901,7 @@
     this._t = _toIobject(iterated); // target
     this._i = 0;                   // next index
     this._k = kind;                // kind
-  // 22.1.6.2.1 %ArrayIteratorPrototype%.next()
+  // 22.1.5.2.1 %ArrayIteratorPrototype%.next()
   }, function () {
     var O = this._t;
     var kind = this._k;

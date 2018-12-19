@@ -19,9 +19,8 @@
 }
 
 .tab-content {
-  margin-top: -1px;
-  background: #fff;
-  border: 1px solid $border-color;
+  border: none;
+
   .tab-pane {
     padding: $spacer;
   }

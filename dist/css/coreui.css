@@ -16639,9 +16639,7 @@ a > .coreui-layout code {
 }
 
 .coreui-layout .tab-content {
-  margin-top: -1px;
-  background: #fff;
-  border: 1px solid #c8ced3;
+  border: none;
 }
 
 .coreui-layout .tab-content .tab-pane {

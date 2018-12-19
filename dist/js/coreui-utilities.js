@@ -539,7 +539,7 @@
     this._t = _toIobject(iterated); // target
     this._i = 0;                   // next index
     this._k = kind;                // kind
-  // 22.1.6.2.1 %ArrayIteratorPrototype%.next()
+  // 22.1.5.2.1 %ArrayIteratorPrototype%.next()
   }, function () {
     var O = this._t;
     var kind = this._k;

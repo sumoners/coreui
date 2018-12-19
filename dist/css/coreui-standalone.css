@@ -2395,9 +2395,7 @@ canvas {
 }
 
 .tab-content {
-  margin-top: -1px;
-  background: #fff;
-  border: 1px solid #c8ced3;
+  border: none;
 }
 
 .tab-content .tab-pane {
