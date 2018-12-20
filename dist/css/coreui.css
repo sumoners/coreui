@@ -14572,6 +14572,7 @@ a > .coreui-layout code {
 
 .coreui-layout .breadcrumb {
   position: relative;
+  font-size: 1.25rem;
   border-radius: 0;
   border-bottom: 1px solid #c8ced3;
 }

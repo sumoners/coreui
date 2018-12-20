@@ -1,5 +1,6 @@
 .breadcrumb {
   position: relative;
+  font-size: $breadcrumb-font-size;
   @include border-radius($breadcrumb-border-radius);
   @include borders($breadcrumb-borders);
 }
