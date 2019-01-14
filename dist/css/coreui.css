@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.8
+ * @version v2.1.9
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -16618,6 +16618,10 @@ a > .coreui-layout code {
   background-color: #2f353a;
 }
 
+.coreui-layout .modal-dialog.modal-xl {
+  max-width: 1070px;
+}
+
 .coreui-layout .nav-tabs .nav-link {
   color: #73818f;
 }
@@ -18672,6 +18676,20 @@ a > .coreui-layout code {
 
 .coreui-layout hr.transparent {
   border-top: 1px solid transparent;
+}
+
+.coreui-layout input::-ms-clear,
+.coreui-layout input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.coreui-layout input::-webkit-search-decoration,
+.coreui-layout input::-webkit-search-cancel-button,
+.coreui-layout input::-webkit-search-results-button,
+.coreui-layout input::-webkit-search-results-decoration {
+  display: none;
 }
 
 .coreui-layout .bg-primary,
