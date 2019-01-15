@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.9
+ * @version v2.1.10
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -16616,6 +16616,10 @@ a > .coreui-layout code {
 .coreui-layout .modal-dark .modal-header {
   color: #fff;
   background-color: #2f353a;
+}
+
+.coreui-layout .modal-content {
+  margin: 0;
 }
 
 .coreui-layout .modal-dialog.modal-xl {
