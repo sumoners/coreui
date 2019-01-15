@@ -4,15 +4,16 @@ hr.transparent {
 }
 
 input::-ms-clear,
-input::-ms-reveal {
+input::-ms-reveal,
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button,
+input::-webkit-search-cancel-button,
+input::-webkit-search-decoration,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration,
+input::-webkit-clear-button {
   display: none;
   width: 0;
   height: 0;
-}
-
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button,
-input::-webkit-search-results-button,
-input::-webkit-search-results-decoration {
-  display: none;
+  margin: 0;
 }
