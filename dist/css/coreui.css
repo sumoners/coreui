@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.10
+ * @version v2.1.11
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -14539,25 +14539,9 @@ a > .coreui-layout code {
   display: none;
 }
 
-.coreui-layout .breadcrumb-menu .btn-group {
-  vertical-align: top;
-}
-
 .coreui-layout .breadcrumb-menu .btn {
-  padding: 0 0.75rem;
-  color: #73818f;
-  vertical-align: top;
-  border: 0;
-}
-
-.coreui-layout .breadcrumb-menu .btn:hover, .coreui-layout .breadcrumb-menu .btn.active {
-  color: #23282c;
-  background: transparent;
-}
-
-.coreui-layout .breadcrumb-menu .open .btn {
-  color: #23282c;
-  background: transparent;
+  position: relative;
+  top: 2px;
 }
 
 .coreui-layout .breadcrumb-menu .dropdown-menu {
