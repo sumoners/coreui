@@ -4,7 +4,13 @@ hr.transparent {
 }
 
 input::-ms-clear,
-input::-ms-reveal,
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button,
 input::-webkit-search-cancel-button,
