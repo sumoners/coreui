@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.13
+ * @version v2.1.14
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -14364,6 +14364,10 @@ a > .coreui-layout code {
 
 .coreui-layout .is-valid + .select2 .select2-selection__arrow b {
   border-color: #4dbd74 transparent transparent transparent !important;
+}
+
+.coreui-layout .alert-warning {
+  background: #ffce34;
 }
 
 .coreui-layout .aside-menu {
