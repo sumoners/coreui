@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.14
+ * @version v2.1.15
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -2356,6 +2356,10 @@ canvas {
 .modal-dark .modal-header {
   color: #fff;
   background-color: #2f353a;
+}
+
+.modal {
+  overflow: auto;
 }
 
 .modal-content {
@@ -5085,6 +5089,10 @@ body {
 
 .text-white .text-muted {
   color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.line-height-1 {
+  line-height: 1;
 }
 
 *[dir="rtl"] {
