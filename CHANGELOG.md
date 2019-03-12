@@ -1,4 +1,4 @@
-## v2.1.17
+## v2.1.18
 - fix(scss): .sidebar .nav-link.disabled
 - chore: update `@babel/cli` to `^7.2.0`
 - chore: update `@babel/core` to `^7.2.0`
