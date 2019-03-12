@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.18
+ * @version v2.1.19
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -2358,6 +2358,16 @@ button.bg-dark:focus {
   background-color: #181b1e !important;
 }
 
+.bg-input {
+  background-color: #e4e7ea !important;
+}
+
+a.bg-input:hover, a.bg-input:focus,
+button.bg-input:hover,
+button.bg-input:focus {
+  background-color: #c7ced4 !important;
+}
+
 .bg-white {
   background-color: #fff !important;
 }
@@ -2436,6 +2446,10 @@ button.bg-dark:focus {
 
 .border-dark {
   border-color: #2f353a !important;
+}
+
+.border-input {
+  border-color: #e4e7ea !important;
 }
 
 .border-white {
@@ -5123,6 +5137,14 @@ a.text-dark:hover, a.text-dark:focus {
   color: #181b1e !important;
 }
 
+.text-input {
+  color: #e4e7ea !important;
+}
+
+a.text-input:hover, a.text-input:focus {
+  color: #c7ced4 !important;
+}
+
 .text-body {
   color: #23282c !important;
 }
@@ -5192,6 +5214,7 @@ a.text-dark:hover, a.text-dark:focus {
   --danger: #f86c6b;
   --light: #f0f3f5;
   --dark: #2f353a;
+  --input: #e4e7ea;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -6865,6 +6888,21 @@ a > .coreui-layout code {
   background-color: #b8b9bc;
 }
 
+.coreui-layout .table-input,
+.coreui-layout .table-input > th,
+.coreui-layout .table-input > td {
+  background-color: #f7f8f9;
+}
+
+.coreui-layout .table-hover .table-input:hover {
+  background-color: #e8ebee;
+}
+
+.coreui-layout .table-hover .table-input:hover > td,
+.coreui-layout .table-hover .table-input:hover > th {
+  background-color: #e8ebee;
+}
+
 .coreui-layout .table-active,
 .coreui-layout .table-active > th,
 .coreui-layout .table-active > td {
@@ -7775,6 +7813,40 @@ a > .coreui-layout code {
   box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
 }
 
+.coreui-layout .btn-input {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-input:hover {
+  color: #23282c;
+  background-color: #ced4d9;
+  border-color: #c7ced4;
+}
+
+.coreui-layout .btn-input:focus, .coreui-layout .btn-input.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
+.coreui-layout .btn-input.disabled, .coreui-layout .btn-input:disabled {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-input:not(:disabled):not(.disabled):active, .coreui-layout .btn-input:not(:disabled):not(.disabled).active,
+.show > .coreui-layout .btn-input.dropdown-toggle {
+  color: #23282c;
+  background-color: #c7ced4;
+  border-color: #c0c7ce;
+}
+
+.coreui-layout .btn-input:not(:disabled):not(.disabled):active:focus, .coreui-layout .btn-input:not(:disabled):not(.disabled).active:focus,
+.show > .coreui-layout .btn-input.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
 .coreui-layout .btn-outline-primary {
   color: #0e6994;
   background-color: transparent;
@@ -8045,6 +8117,40 @@ a > .coreui-layout code {
 .coreui-layout .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .coreui-layout .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
 .show > .coreui-layout .btn-outline-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
+}
+
+.coreui-layout .btn-outline-input {
+  color: #e4e7ea;
+  background-color: transparent;
+  background-image: none;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-outline-input:hover {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-outline-input:focus, .coreui-layout .btn-outline-input.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
+.coreui-layout .btn-outline-input.disabled, .coreui-layout .btn-outline-input:disabled {
+  color: #e4e7ea;
+  background-color: transparent;
+}
+
+.coreui-layout .btn-outline-input:not(:disabled):not(.disabled):active, .coreui-layout .btn-outline-input:not(:disabled):not(.disabled).active,
+.show > .coreui-layout .btn-outline-input.dropdown-toggle {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-outline-input:not(:disabled):not(.disabled):active:focus, .coreui-layout .btn-outline-input:not(:disabled):not(.disabled).active:focus,
+.show > .coreui-layout .btn-outline-input.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
 }
 
 .coreui-layout .btn-link {
@@ -10048,6 +10154,17 @@ a > .coreui-layout code {
   background-color: #181b1e;
 }
 
+.coreui-layout .badge-input {
+  color: #23282c;
+  background-color: #e4e7ea;
+}
+
+.coreui-layout .badge-input[href]:hover, .coreui-layout .badge-input[href]:focus {
+  color: #23282c;
+  text-decoration: none;
+  background-color: #c7ced4;
+}
+
 .coreui-layout .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -10205,6 +10322,20 @@ a > .coreui-layout code {
 
 .coreui-layout .alert-dark .alert-link {
   color: #010202;
+}
+
+.coreui-layout .alert-input {
+  color: #77787a;
+  background-color: #fafafb;
+  border-color: #f7f8f9;
+}
+
+.coreui-layout .alert-input hr {
+  border-top-color: #e8ebee;
+}
+
+.coreui-layout .alert-input .alert-link {
+  color: #5e5f60;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -10480,6 +10611,22 @@ a > .coreui-layout code {
   color: #fff;
   background-color: #181c1e;
   border-color: #181c1e;
+}
+
+.coreui-layout .list-group-item-input {
+  color: #77787a;
+  background-color: #f7f8f9;
+}
+
+.coreui-layout .list-group-item-input.list-group-item-action:hover, .coreui-layout .list-group-item-input.list-group-item-action:focus {
+  color: #77787a;
+  background-color: #e8ebee;
+}
+
+.coreui-layout .list-group-item-input.list-group-item-action.active {
+  color: #fff;
+  background-color: #77787a;
+  border-color: #77787a;
 }
 
 .coreui-layout .close {
@@ -11323,6 +11470,16 @@ a > .coreui-layout code {
   background-color: #181b1e !important;
 }
 
+.coreui-layout .bg-input {
+  background-color: #e4e7ea !important;
+}
+
+.coreui-layout a.bg-input:hover, .coreui-layout a.bg-input:focus,
+.coreui-layout button.bg-input:hover,
+.coreui-layout button.bg-input:focus {
+  background-color: #c7ced4 !important;
+}
+
 .coreui-layout .bg-white {
   background-color: #fff !important;
 }
@@ -11401,6 +11558,10 @@ a > .coreui-layout code {
 
 .coreui-layout .border-dark {
   border-color: #2f353a !important;
+}
+
+.coreui-layout .border-input {
+  border-color: #e4e7ea !important;
 }
 
 .coreui-layout .border-white {
@@ -14088,6 +14249,14 @@ a > .coreui-layout code {
   color: #181b1e !important;
 }
 
+.coreui-layout .text-input {
+  color: #e4e7ea !important;
+}
+
+.coreui-layout a.text-input:hover, .coreui-layout a.text-input:focus {
+  color: #c7ced4 !important;
+}
+
 .coreui-layout .text-body {
   color: #23282c !important;
 }
@@ -15834,6 +16003,41 @@ a > .coreui-layout code {
   box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
 }
 
+.coreui-layout .btn-ghost-input {
+  color: #e4e7ea;
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+}
+
+.coreui-layout .btn-ghost-input:hover {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-ghost-input:focus, .coreui-layout .btn-ghost-input.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
+.coreui-layout .btn-ghost-input.disabled, .coreui-layout .btn-ghost-input:disabled {
+  color: #e4e7ea;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.coreui-layout .btn-ghost-input:not(:disabled):not(.disabled):active, .coreui-layout .btn-ghost-input:not(:disabled):not(.disabled).active,
+.show > .coreui-layout .btn-ghost-input.dropdown-toggle {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .btn-ghost-input:not(:disabled):not(.disabled):active:focus, .coreui-layout .btn-ghost-input:not(:disabled):not(.disabled).active:focus,
+.show > .coreui-layout .btn-ghost-input.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
 .coreui-layout .callout {
   position: relative;
   padding: 0 1rem;
@@ -15936,6 +16140,14 @@ a > .coreui-layout code {
   color: #2f353a;
 }
 
+.coreui-layout .callout-input {
+  border-left-color: #e4e7ea;
+}
+
+.coreui-layout .callout-input h4 {
+  color: #e4e7ea;
+}
+
 .coreui-layout *[dir="rtl"] .callout {
   border-right: 4px solid #c8ced3;
   border-left: 0;
@@ -15971,6 +16183,10 @@ a > .coreui-layout code {
 
 .coreui-layout *[dir="rtl"] .callout.callout-dark {
   border-right-color: #2f353a;
+}
+
+.coreui-layout *[dir="rtl"] .callout.callout-input {
+  border-right-color: #e4e7ea;
 }
 
 .coreui-layout *[dir="rtl"] .callout .chart-wrapper {
@@ -16052,6 +16268,15 @@ a > .coreui-layout code {
 .coreui-layout .card.bg-dark .card-header {
   background-color: #282d32;
   border-color: #121517;
+}
+
+.coreui-layout .card.bg-input {
+  border-color: #c0c7ce;
+}
+
+.coreui-layout .card.bg-input .card-header {
+  background-color: #dbdfe3;
+  border-color: #c0c7ce;
 }
 
 .coreui-layout .card.drag,
@@ -16165,6 +16390,11 @@ a > .coreui-layout code {
 
 .coreui-layout .card-accent-dark {
   border-top-color: #2f353a;
+  border-top-width: 2px;
+}
+
+.coreui-layout .card-accent-input {
+  border-top-color: #e4e7ea;
   border-top-width: 2px;
 }
 
@@ -16534,6 +16764,10 @@ a > .coreui-layout code {
   border-left: 4px solid #2f353a;
 }
 
+.coreui-layout .list-group-item-accent-input {
+  border-left: 4px solid #e4e7ea;
+}
+
 .coreui-layout .modal-primary .modal-content {
   border-color: #0e6994;
 }
@@ -16604,6 +16838,15 @@ a > .coreui-layout code {
 .coreui-layout .modal-dark .modal-header {
   color: #fff;
   background-color: #2f353a;
+}
+
+.coreui-layout .modal-input .modal-content {
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .modal-input .modal-header {
+  color: #fff;
+  background-color: #e4e7ea;
 }
 
 .coreui-layout .modal {
@@ -17038,6 +17281,22 @@ a > .coreui-layout code {
 }
 
 .coreui-layout .sidebar .nav-link.nav-link-dark:hover i {
+  color: #fff;
+}
+
+.coreui-layout .sidebar .nav-link.nav-link-input {
+  background: #e4e7ea;
+}
+
+.coreui-layout .sidebar .nav-link.nav-link-input .nav-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.coreui-layout .sidebar .nav-link.nav-link-input:hover {
+  background: #d6dadf;
+}
+
+.coreui-layout .sidebar .nav-link.nav-link-input:hover i {
   color: #fff;
 }
 
@@ -17891,6 +18150,42 @@ a > .coreui-layout code {
 
 .coreui-layout .switch-outline-dark-alt .switch-input:checked + .switch-slider::after {
   color: #2f353a;
+}
+
+.coreui-layout .switch-input .switch-input:checked + .switch-slider {
+  background-color: #e4e7ea;
+  border-color: #c7ced4;
+}
+
+.coreui-layout .switch-input .switch-input:checked + .switch-slider::before {
+  border-color: #c7ced4;
+}
+
+.coreui-layout .switch-outline-input .switch-input:checked + .switch-slider {
+  background-color: #fff;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .switch-outline-input .switch-input:checked + .switch-slider::before {
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .switch-outline-input .switch-input:checked + .switch-slider::after {
+  color: #e4e7ea;
+}
+
+.coreui-layout .switch-outline-input-alt .switch-input:checked + .switch-slider {
+  background-color: #fff;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .switch-outline-input-alt .switch-input:checked + .switch-slider::before {
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.coreui-layout .switch-outline-input-alt .switch-input:checked + .switch-slider::after {
+  color: #e4e7ea;
 }
 
 .coreui-layout .switch-pill .switch-slider {
@@ -19417,6 +19712,7 @@ a > .coreui-layout code {
   danger: #f86c6b;
   light: #f0f3f5;
   dark: #2f353a;
+  input: #e4e7ea;
   breakpoint-xs: 0;
   breakpoint-sm: 576px;
   breakpoint-md: 768px;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.18
+ * @version v2.1.19
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -1640,6 +1640,41 @@
   box-shadow: 0 0 0 0.2rem rgba(47, 53, 58, 0.5);
 }
 
+.btn-ghost-input {
+  color: #e4e7ea;
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+}
+
+.btn-ghost-input:hover {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.btn-ghost-input:focus, .btn-ghost-input.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
+.btn-ghost-input.disabled, .btn-ghost-input:disabled {
+  color: #e4e7ea;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-ghost-input:not(:disabled):not(.disabled):active, .btn-ghost-input:not(:disabled):not(.disabled).active,
+.show > .btn-ghost-input.dropdown-toggle {
+  color: #23282c;
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.btn-ghost-input:not(:disabled):not(.disabled):active:focus, .btn-ghost-input:not(:disabled):not(.disabled).active:focus,
+.show > .btn-ghost-input.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 231, 234, 0.5);
+}
+
 .callout {
   position: relative;
   padding: 0 1rem;
@@ -1742,6 +1777,14 @@
   color: #2f353a;
 }
 
+.callout-input {
+  border-left-color: #e4e7ea;
+}
+
+.callout-input h4 {
+  color: #e4e7ea;
+}
+
 *[dir="rtl"] .callout {
   border-right: 4px solid #c8ced3;
   border-left: 0;
@@ -1777,6 +1820,10 @@
 
 *[dir="rtl"] .callout.callout-dark {
   border-right-color: #2f353a;
+}
+
+*[dir="rtl"] .callout.callout-input {
+  border-right-color: #e4e7ea;
 }
 
 *[dir="rtl"] .callout .chart-wrapper {
@@ -1858,6 +1905,15 @@
 .card.bg-dark .card-header {
   background-color: #282d32;
   border-color: #121517;
+}
+
+.card.bg-input {
+  border-color: #c0c7ce;
+}
+
+.card.bg-input .card-header {
+  background-color: #dbdfe3;
+  border-color: #c0c7ce;
 }
 
 .card.drag,
@@ -1971,6 +2027,11 @@
 
 .card-accent-dark {
   border-top-color: #2f353a;
+  border-top-width: 2px;
+}
+
+.card-accent-input {
+  border-top-color: #e4e7ea;
   border-top-width: 2px;
 }
 
@@ -2356,6 +2417,15 @@ canvas {
 .modal-dark .modal-header {
   color: #fff;
   background-color: #2f353a;
+}
+
+.modal-input .modal-content {
+  border-color: #e4e7ea;
+}
+
+.modal-input .modal-header {
+  color: #fff;
+  background-color: #e4e7ea;
 }
 
 .modal {
@@ -2790,6 +2860,22 @@ canvas {
 }
 
 .sidebar .nav-link.nav-link-dark:hover i {
+  color: #fff;
+}
+
+.sidebar .nav-link.nav-link-input {
+  background: #e4e7ea;
+}
+
+.sidebar .nav-link.nav-link-input .nav-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.sidebar .nav-link.nav-link-input:hover {
+  background: #d6dadf;
+}
+
+.sidebar .nav-link.nav-link-input:hover i {
   color: #fff;
 }
 
@@ -3643,6 +3729,42 @@ canvas {
 
 .switch-outline-dark-alt .switch-input:checked + .switch-slider::after {
   color: #2f353a;
+}
+
+.switch-input .switch-input:checked + .switch-slider {
+  background-color: #e4e7ea;
+  border-color: #c7ced4;
+}
+
+.switch-input .switch-input:checked + .switch-slider::before {
+  border-color: #c7ced4;
+}
+
+.switch-outline-input .switch-input:checked + .switch-slider {
+  background-color: #fff;
+  border-color: #e4e7ea;
+}
+
+.switch-outline-input .switch-input:checked + .switch-slider::before {
+  border-color: #e4e7ea;
+}
+
+.switch-outline-input .switch-input:checked + .switch-slider::after {
+  color: #e4e7ea;
+}
+
+.switch-outline-input-alt .switch-input:checked + .switch-slider {
+  background-color: #fff;
+  border-color: #e4e7ea;
+}
+
+.switch-outline-input-alt .switch-input:checked + .switch-slider::before {
+  background-color: #e4e7ea;
+  border-color: #e4e7ea;
+}
+
+.switch-outline-input-alt .switch-input:checked + .switch-slider::after {
+  color: #e4e7ea;
 }
 
 .switch-pill .switch-slider {
@@ -5169,6 +5291,7 @@ body {
   danger: #f86c6b;
   light: #f0f3f5;
   dark: #2f353a;
+  input: #e4e7ea;
   breakpoint-xs: 0;
   breakpoint-sm: 576px;
   breakpoint-md: 768px;
