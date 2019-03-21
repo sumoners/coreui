@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
  * CoreUI - Open Source Dashboard UI Kit
- * @version v2.1.19
+ * @version v2.1.20
  * @link https://coreui.io
  * Copyright (c) 2018 creativeLabs Łukasz Holeczek
  * Licensed under MIT (https://coreui.io/license)
@@ -18210,6 +18210,25 @@ a > .coreui-layout code {
 
 .coreui-layout .table-clear td {
   border: 0;
+}
+
+.coreui-layout .popover {
+  position: fixed;
+  padding: 0 1rem;
+  background: #fafafa;
+  border-left: 4px solid #35235f;
+}
+
+.coreui-layout .popover .arrow {
+  display: none;
+}
+
+.coreui-layout .popover-header {
+  font-size: 9px;
+}
+
+.coreui-layout .popover-body {
+  font-size: 9px;
 }
 
 @media all and (-ms-high-contrast: none) {

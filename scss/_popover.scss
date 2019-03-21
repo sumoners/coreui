@@ -1,0 +1,18 @@
+.popover {
+  position: fixed;
+  padding: 0 1rem;
+  background: #fafafa;
+  border-left: 4px solid #35235f;
+
+  .arrow {
+    display: none;
+  }
+}
+
+.popover-header {
+  font-size: 9px;
+}
+
+.popover-body {
+  font-size: 9px;
+}
