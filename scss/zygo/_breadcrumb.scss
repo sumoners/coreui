@@ -1,0 +1,16 @@
+.breadcrumb {
+  align-items: center;
+
+  .breadcrumb-item {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+
+    &:before{
+      color: $body-color;
+    }
+
+    &.active {
+      color: $body-color;
+    }
+  }
+}

@@ -1,0 +1,201 @@
+// TYPOGRAPHY
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+// COLORS
+// Global Colors
+$white: #ffffff;
+$black: #252525;
+
+// Brand Colors - Pure
+$primary: #35245c;
+$primary-alt: #ff7101;
+$secondary: #5a6169;
+$info: #00a5df;
+$info-alt: #06e2b5;
+$success: #17c671;
+$danger: #dc3545;
+$warning: #ffb402;
+$gray: #474747;
+$link: #1c94f5;
+
+// Brand Colors - Light
+$primary-light: #795abf;
+$primary-alt-light: #ffaa67;
+$secondary-light: #9fa5ac;
+$info-light: #68d8ff;
+$info-alt-light: #64fbdc;
+$success-light: #76efb4;
+$danger-light: #e97d88;
+$warning-light: #ffd268;
+$gray-light: #696969;
+$link-light: #6dbaf9;
+
+// Brand Colors - Tint
+$primary-tint: #dcd4ee;
+$primary-alt-tint: #ffe3cd;
+$secondary-tint: #e8e9eb;
+$info-tint: #cef2ff;
+$info-alt-tint: #c7fef2;
+$success-tint: #d1fae6;
+$danger-tint: #f8d4d8;
+$warning-tint: #fff0ce;
+$gray-tint: #8b8b8b;
+$link-tint: #cfe8fd;
+
+// Brand Colors - Social
+$social-facebook: #3b5998;
+$social-twitter: #1da1f2;
+$social-whatsapp: #25d366;
+
+$theme-colors: (
+  "white": $white,
+  "black": $black,
+
+  "primary": $primary,
+  "primary-alt": $primary-alt,
+  "secondary": $secondary,
+  "info": $info,
+  "info-alt": $info-alt,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "gray": $gray,
+  "link": $link,
+
+  "primary-light": $primary-light,
+  "primary-alt-light": $primary-alt-light,
+  "secondary-light": $secondary-light,
+  "info-light": $info-light,
+  "info-alt-light": $info-alt-light,
+  "success-light": $success-light,
+  "danger-light": $danger-light,
+  "warning-light": $warning-light,
+  "gray-light": $gray-light,
+  "link-light": $link-light,
+
+  "primary-tint": $primary-tint,
+  "primary-alt-tint": $primary-alt-tint,
+  "secondary-tint": $secondary-tint,
+  "info-tint": $info-tint,
+  "info-alt-tint": $info-alt-tint,
+  "success-tint": $success-tint,
+  "danger-tint": $danger-tint,
+  "warning-tint": $warning-tint,
+  "gray-tint": $gray-tint,
+  "link-tint": $link-tint,
+
+  "social-facebook": $social-facebook,
+  "social-twitter": $social-twitter,
+  "social-whatsapp": $social-whatsapp,
+);
+
+:export {
+  white: $white;
+  black: $black;
+
+  primary: $primary;
+  primary-alt: $primary-alt;
+  secondary: $secondary;
+  info: $info;
+  info-alt: $info-alt;
+  success: $success;
+  danger: $danger;
+  warning: $warning;
+  gray: $gray;
+  link: $link;
+
+  primary-light: $primary-light;
+  primary-alt-light: $primary-alt-light;
+  secondary-light: $secondary-light;
+  info-light: $info-light;
+  info-alt-light: $info-alt-light;
+  success-light: $success-light;
+  danger-light: $danger-light;
+  warning-light: $warning-light;
+  gray-light: $gray-light;
+  link-light: $link-light;
+
+  primary-tint: $primary-tint;
+  primary-alt-tint: $primary-alt-tint;
+  secondary-tint: $secondary-tint;
+  info-tint: $info-tint;
+  info-alt-tint: $info-alt-tint;
+  success-tint: $success-tint;
+  danger-tint: $danger-tint;
+  warning-tint: $warning-tint;
+  gray-tint: $gray-tint;
+  link-tint: $link-tint;
+
+  social-facebook: $social-facebook;
+  social-twitter: $social-twitter;
+  social-whatsapp: $social-whatsapp;
+}
+
+// TEXTS & FONTS
+// Base Typography
+$font-family-base: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Headings Typography
+$headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Sizes
+$display1-size: 3.75rem; // 60px
+$display2-size: 3.375rem; // 54px
+$display3-size: 3rem; // 48px
+$display4-size: 2.625rem; // 42px
+
+$h1-font-size: 2.25rem; // 36px
+$h2-font-size: 1.875rem; //30px
+$h3-font-size: 1.625rem; // 26px
+$h4-font-size: 1.375rem; //22px
+$h5-font-size: 1.125rem; // 18px
+
+$small-font-size: 0.8571rem; //12px
+
+// Weight
+$display1-weight: $font-weight-bold;
+$display2-weight: $font-weight-bold;
+$display3-weight: $font-weight-bold;
+$display4-weight: $font-weight-bold;
+
+$headings-font-weight: $font-weight-bold;
+
+// Links
+$link-color: $link;
+$link-hover-color: darken($link-color, 8%);
+
+// ELEMENTS AND COMPONENTES
+// Application Background
+$body-bg: #f8f9fe;
+$body-color: $black;
+
+// Buttons
+$btn-font-weight: $font-weight-bold;
+
+// Breadcrumb
+$breadcrumb-padding-x: 0;
+$breadcrumb-font-size: 1.125rem;
+
+// Modal
+$modal-backdrop-bg: $white;
+$modal-backdrop-opacity: .8;
+$modal-content-border-radius: 8px;
+$modal-content-border-width: 0;
+$modal-content-border-color: transparent;
+$modal-content-box-shadow-xs: 0 4px 16px 0 rgba(0, 0, 0, 0.2);;
+$modal-content-box-shadow-sm-up: 0 4px 16px 0 rgba(0, 0, 0, 0.2);;
+
+// Cards
+$card-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+$card-border-width: 0;
+$card-border-color: transparent;
+
+// Menu
+// $background-menu-selected: #f0edf8;
+// $background-menu-hover: #f6f7f7;
+
+// // Forms
+// $text-field-input-default: #d4dae3;
+// $text-field-input-selected: #97a5ba;
+// $text-field-input-disabled: #e9ecef;

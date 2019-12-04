@@ -1,0 +1,80 @@
+.zygo-layout {
+  @import "variables";
+
+  margin: 0; // 1
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $body-color;
+  text-align: left; // 3
+  background-color: $body-bg; // 2
+
+  @import "node_modules/bootstrap/scss/bootstrap-reboot"; // from bootstrap node_modules
+  @import "node_modules/bootstrap/scss/bootstrap-grid"; // from bootstrap node_modules
+  @import "node_modules/bootstrap/scss/utilities"; // from bootstrap node_modules
+
+  // Import Bootstrap source files
+  @import "node_modules/bootstrap/scss/bootstrap"; // from bootstrap node_modules
+
+  // Mixins
+  @import "../mixins";
+
+  // Animations
+  @import "../animate";
+
+  // Vendors
+  @import "../vendors";
+
+  // Components
+  @import "../alert";
+  @import "../aside";
+  @import "../avatars";
+  @import "../badge";
+  @import "../breadcrumb-menu";
+  @import "../breadcrumb";
+  @import "../brand-card";
+  @import "../brand-buttons";
+  @import "../buttons";
+  @import "../callout";
+  @import "../card";
+  @import "../charts";
+  @import "../dropdown";
+  @import "../footer";
+  @import "../grid";
+  @import "../header";
+  @import "../input-group";
+  @import "../images";
+  @import "../list-group";
+  @import "../modal";
+  @import "../nav";
+  @import "../progress";
+  @import "../progress-group";
+  @import "../sidebar";
+  @import "../switches";
+  @import "../tables";
+  @import "../widgets";
+  @import "../popover";
+
+  // Layout Options
+  @import "../layout";
+
+  @import "../others";
+
+  // Utility classes
+  @import "../utilities";
+
+  // Right-to-left
+  @import "../rtl";
+
+  // Custom Properties support for Internet Explorer
+  @import "../ie-custom-properties";
+
+  // FontAwesome
+  @import "../vendors/fontawesome/fontawesome";
+
+  // Custom Override
+  @import "breadcrumb";
+  @import "card";
+  @import "modal";
+}

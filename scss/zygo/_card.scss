@@ -1,0 +1,9 @@
+.card {
+  box-shadow: $card-shadow;
+
+  .card {
+    border-width: 1px;
+    border-color: $secondary-tint;
+    box-shadow: none;
+  }
+}
