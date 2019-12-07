@@ -502,6 +502,9 @@
 }
 
 .btn-facebook:focus, .btn-facebook.focus {
+  color: #fff;
+  background-color: #30497c;
+  border-color: #2d4373;
   box-shadow: 0 0 0 0.2rem rgba(88, 114, 167, 0.5);
 }
 
@@ -536,6 +539,9 @@
 }
 
 .btn-twitter:focus, .btn-twitter.focus {
+  color: #fff;
+  background-color: #0090c7;
+  border-color: #0087ba;
   box-shadow: 0 0 0 0.2rem rgba(38, 184, 240, 0.5);
 }
 
@@ -570,6 +576,9 @@
 }
 
 .btn-linkedin:focus, .btn-linkedin.focus {
+  color: #fff;
+  background-color: #3d6399;
+  border-color: #395d90;
   box-shadow: 0 0 0 0.2rem rgba(99, 138, 191, 0.5);
 }
 
@@ -604,6 +613,9 @@
 }
 
 .btn-google-plus:focus, .btn-google-plus.focus {
+  color: #fff;
+  background-color: #ba3929;
+  border-color: #b03626;
   box-shadow: 0 0 0 0.2rem rgba(218, 99, 84, 0.5);
 }
 
@@ -638,6 +650,9 @@
 }
 
 .btn-flickr:focus, .btn-flickr.focus {
+  color: #fff;
+  background-color: #d90070;
+  border-color: #cc006a;
   box-shadow: 0 0 0 0.2rem rgba(255, 38, 150, 0.5);
 }
 
@@ -672,6 +687,9 @@
 }
 
 .btn-tumblr:focus, .btn-tumblr.focus {
+  color: #fff;
+  background-color: #263d53;
+  border-color: #22364a;
   box-shadow: 0 0 0 0.2rem rgba(81, 106, 131, 0.5);
 }
 
@@ -706,6 +724,9 @@
 }
 
 .btn-xing:focus, .btn-xing.focus {
+  color: #fff;
+  background-color: #013f40;
+  border-color: #013334;
   box-shadow: 0 0 0 0.2rem rgba(40, 123, 125, 0.5);
 }
 
@@ -740,6 +761,9 @@
 }
 
 .btn-github:focus, .btn-github.focus {
+  color: #fff;
+  background-color: #3570aa;
+  border-color: #3269a0;
   box-shadow: 0 0 0 0.2rem rgba(94, 150, 205, 0.5);
 }
 
@@ -774,6 +798,9 @@
 }
 
 .btn-html5:focus, .btn-html5.focus {
+  color: #fff;
+  background-color: #c9401a;
+  border-color: #be3c18;
   box-shadow: 0 0 0 0.2rem rgba(231, 105, 71, 0.5);
 }
 
@@ -808,6 +835,9 @@
 }
 
 .btn-openid:focus, .btn-openid.focus {
+  color: #fff;
+  background-color: #f5761b;
+  border-color: #f56f0f;
   box-shadow: 0 0 0 0.2rem rgba(215, 125, 61, 0.5);
 }
 
@@ -842,6 +872,9 @@
 }
 
 .btn-stack-overflow:focus, .btn-stack-overflow.focus {
+  color: #fff;
+  background-color: #ec6701;
+  border-color: #df6101;
   box-shadow: 0 0 0 0.2rem rgba(254, 142, 56, 0.5);
 }
 
@@ -876,6 +909,9 @@
 }
 
 .btn-youtube:focus, .btn-youtube.focus {
+  color: #fff;
+  background-color: #950000;
+  border-color: #880000;
   box-shadow: 0 0 0 0.2rem rgba(197, 38, 38, 0.5);
 }
 
@@ -910,6 +946,9 @@
 }
 
 .btn-css3:focus, .btn-css3.focus {
+  color: #fff;
+  background-color: #015994;
+  border-color: #015187;
   box-shadow: 0 0 0 0.2rem rgba(39, 133, 196, 0.5);
 }
 
@@ -944,6 +983,9 @@
 }
 
 .btn-dribbble:focus, .btn-dribbble.focus {
+  color: #fff;
+  background-color: #e62a72;
+  border-color: #e51e6b;
   box-shadow: 0 0 0 0.2rem rgba(237, 103, 155, 0.5);
 }
 
@@ -978,6 +1020,9 @@
 }
 
 .btn-instagram:focus, .btn-instagram.focus {
+  color: #fff;
+  background-color: #446b8a;
+  border-color: #406582;
   box-shadow: 0 0 0 0.2rem rgba(107, 146, 178, 0.5);
 }
 
@@ -1012,6 +1057,9 @@
 }
 
 .btn-pinterest:focus, .btn-pinterest.focus {
+  color: #fff;
+  background-color: #aa1b21;
+  border-color: #9f191f;
   box-shadow: 0 0 0 0.2rem rgba(211, 65, 71, 0.5);
 }
 
@@ -1046,6 +1094,9 @@
 }
 
 .btn-vk:focus, .btn-vk.focus {
+  color: #fff;
+  background-color: #385474;
+  border-color: #344d6c;
   box-shadow: 0 0 0 0.2rem rgba(97, 125, 159, 0.5);
 }
 
@@ -1080,6 +1131,9 @@
 }
 
 .btn-yahoo:focus, .btn-yahoo.focus {
+  color: #fff;
+  background-color: #2f016b;
+  border-color: #2a015e;
   box-shadow: 0 0 0 0.2rem rgba(93, 39, 162, 0.5);
 }
 
@@ -1114,6 +1168,9 @@
 }
 
 .btn-behance:focus, .btn-behance.focus {
+  color: #fff;
+  background-color: #0055f0;
+  border-color: #0050e3;
   box-shadow: 0 0 0 0.2rem rgba(58, 128, 255, 0.5);
 }
 
@@ -1148,6 +1205,9 @@
 }
 
 .btn-dropbox:focus, .btn-dropbox.focus {
+  color: #fff;
+  background-color: #0069bf;
+  border-color: #0062b2;
   box-shadow: 0 0 0 0.2rem rgba(38, 145, 233, 0.5);
 }
 
@@ -1182,6 +1242,9 @@
 }
 
 .btn-reddit:focus, .btn-reddit.focus {
+  color: #fff;
+  background-color: #d93b00;
+  border-color: #cc3700;
   box-shadow: 0 0 0 0.2rem rgba(255, 97, 38, 0.5);
 }
 
@@ -1216,6 +1279,9 @@
 }
 
 .btn-spotify:focus, .btn-spotify.focus {
+  color: #fff;
+  background-color: #619200;
+  border-color: #588500;
   box-shadow: 0 0 0 0.2rem rgba(142, 195, 38, 0.5);
 }
 
@@ -1250,6 +1316,9 @@
 }
 
 .btn-vine:focus, .btn-vine.focus {
+  color: #fff;
+  background-color: #009972;
+  border-color: #008c69;
   box-shadow: 0 0 0 0.2rem rgba(38, 201, 160, 0.5);
 }
 
@@ -1284,6 +1353,9 @@
 }
 
 .btn-foursquare:focus, .btn-foursquare.focus {
+  color: #fff;
+  background-color: #0d5c8c;
+  border-color: #0c5480;
   box-shadow: 0 0 0 0.2rem rgba(52, 136, 187, 0.5);
 }
 
@@ -1318,6 +1390,9 @@
 }
 
 .btn-vimeo:focus, .btn-vimeo.focus {
+  color: #23282c;
+  background-color: #9bcc32;
+  border-color: #93c130;
   box-shadow: 0 0 0 0.2rem rgba(150, 186, 75, 0.5);
 }
 
