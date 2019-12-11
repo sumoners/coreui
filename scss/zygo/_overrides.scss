@@ -1,0 +1,60 @@
+// Override H1 font-size on Offers > Overview
+.app {
+  .content__wrapper {
+    h1[class*="title"] {
+      font-size: $h3-font-size;
+    }
+
+    p[class*="subtitle"] {
+      font-size: $small-font-size;
+    }
+
+    .content {
+      > .mb-3 {
+        &.card {
+          i.fas.fa-exclamation-triangle {
+            font-size: $h1-font-size;
+          }
+
+          h3 {
+            font-size: $h5-font-size;
+            color: $danger;
+          }
+
+          h6 {
+            font-family: $font-family-base;
+            font-size: $font-size-base;
+            font-weight: $font-weight-normal;
+
+            strong {
+              color: $danger;
+            }
+          }
+        }
+      }
+
+      .js--review-reply-template__index {
+        .js--review-reply-template__form-wrapper {
+          .card {
+            .card-body {
+              .card-title {
+                font-size: $h4-font-size;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .modal {
+      &.js--older-reviews__modal,
+      &.js--edit__modal {
+        .modal-header {
+          .modal-title {
+            font-size: $h4-font-size;
+          }
+        }
+      }
+    }
+  }
+}
