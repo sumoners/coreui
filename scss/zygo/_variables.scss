@@ -153,6 +153,8 @@ $h5-font-size: 1.125rem; // 18px
 
 $small-font-size: 0.8571rem; //12px
 
+$lead-font-size: 1rem; //16px
+
 // Weight
 $display1-weight: $font-weight-bold;
 $display2-weight: $font-weight-bold;
@@ -190,6 +192,20 @@ $modal-content-box-shadow-sm-up: 0 4px 16px 0 rgba(0, 0, 0, 0.2);;
 $card-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 $card-border-width: 0;
 $card-border-color: transparent;
+
+// Pagination
+$pagination-color: $primary;
+$pagination-bg: $white;
+
+$pagination-hover-color: $primary;
+$pagination-hover-bg: $primary-tint;
+
+$pagination-active-color: $white;
+$pagination-active-bg: $primary;
+$pagination-active-border-color: $primary;
+
+$pagination-disabled-color: rgba($primary, 0.4);
+$pagination-disabled-bg: rgba($white, 0.4);
 
 // Menu
 // $background-menu-selected: #f0edf8;
