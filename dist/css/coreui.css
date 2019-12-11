@@ -32567,7 +32567,7 @@ a.coreui-layout .badge-input:focus, a.coreui-layout .badge-input.focus {
 }
 
 .zygo-layout .lead {
-  font-size: 1.09375rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -39847,16 +39847,16 @@ a > .zygo-layout code {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0e6994;
-  background-color: #fff;
+  color: #35245c;
+  background-color: #ffffff;
   border: 1px solid #c8ced3;
 }
 
 .zygo-layout .page-link:hover {
   z-index: 2;
-  color: #07374e;
+  color: #35245c;
   text-decoration: none;
-  background-color: #e4e7ea;
+  background-color: #dcd4ee;
   border-color: #c8ced3;
 }
 
@@ -39879,16 +39879,16 @@ a > .zygo-layout code {
 
 .zygo-layout .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #0e6994;
-  border-color: #0e6994;
+  color: #ffffff;
+  background-color: #35245c;
+  border-color: #35245c;
 }
 
 .zygo-layout .page-item.disabled .page-link {
-  color: #73818f;
+  color: rgba(53, 36, 92, 0.4);
   pointer-events: none;
   cursor: auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
   border-color: #c8ced3;
 }
 
@@ -56085,6 +56085,41 @@ a.zygo-layout .badge-social-whatsapp:focus, a.zygo-layout .badge-social-whatsapp
 
 .zygo-layout .modal-content {
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zygo-layout .app .content__wrapper h1[class*="title"] {
+  font-size: 1.625rem;
+}
+
+.zygo-layout .app .content__wrapper p[class*="subtitle"] {
+  font-size: 0.8571rem;
+}
+
+.zygo-layout .app .content__wrapper .content > .mb-3.card i.fas.fa-exclamation-triangle {
+  font-size: 2.25rem;
+}
+
+.zygo-layout .app .content__wrapper .content > .mb-3.card h3 {
+  font-size: 1.125rem;
+  color: #dc3545;
+}
+
+.zygo-layout .app .content__wrapper .content > .mb-3.card h6 {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.zygo-layout .app .content__wrapper .content > .mb-3.card h6 strong {
+  color: #dc3545;
+}
+
+.zygo-layout .app .content__wrapper .content .js--review-reply-template__index .js--review-reply-template__form-wrapper .card .card-body .card-title {
+  font-size: 1.375rem;
+}
+
+.zygo-layout .app .content__wrapper .modal.js--older-reviews__modal .modal-header .modal-title, .zygo-layout .app .content__wrapper .modal.js--edit__modal .modal-header .modal-title {
+  font-size: 1.375rem;
 }
 
 /*!
