@@ -502,10 +502,7 @@
 }
 
 .btn-facebook:focus, .btn-facebook.focus {
-  color: #fff;
-  background-color: #30497c;
-  border-color: #2d4373;
-  box-shadow: 0 0 0 0.2rem rgba(88, 114, 167, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
 }
 
 .btn-facebook.disabled, .btn-facebook:disabled {
@@ -523,7 +520,7 @@
 
 .btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus,
 .show > .btn-facebook.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(88, 114, 167, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
 }
 
 .btn-twitter {
@@ -539,10 +536,7 @@
 }
 
 .btn-twitter:focus, .btn-twitter.focus {
-  color: #fff;
-  background-color: #0090c7;
-  border-color: #0087ba;
-  box-shadow: 0 0 0 0.2rem rgba(38, 184, 240, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 172, 237, 0.5);
 }
 
 .btn-twitter.disabled, .btn-twitter:disabled {
@@ -560,7 +554,7 @@
 
 .btn-twitter:not(:disabled):not(.disabled):active:focus, .btn-twitter:not(:disabled):not(.disabled).active:focus,
 .show > .btn-twitter.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 184, 240, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 172, 237, 0.5);
 }
 
 .btn-linkedin {
@@ -576,10 +570,7 @@
 }
 
 .btn-linkedin:focus, .btn-linkedin.focus {
-  color: #fff;
-  background-color: #3d6399;
-  border-color: #395d90;
-  box-shadow: 0 0 0 0.2rem rgba(99, 138, 191, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(72, 117, 180, 0.5);
 }
 
 .btn-linkedin.disabled, .btn-linkedin:disabled {
@@ -597,7 +588,7 @@
 
 .btn-linkedin:not(:disabled):not(.disabled):active:focus, .btn-linkedin:not(:disabled):not(.disabled).active:focus,
 .show > .btn-linkedin.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 138, 191, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(72, 117, 180, 0.5);
 }
 
 .btn-google-plus {
@@ -613,10 +604,7 @@
 }
 
 .btn-google-plus:focus, .btn-google-plus.focus {
-  color: #fff;
-  background-color: #ba3929;
-  border-color: #b03626;
-  box-shadow: 0 0 0 0.2rem rgba(218, 99, 84, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(211, 72, 54, 0.5);
 }
 
 .btn-google-plus.disabled, .btn-google-plus:disabled {
@@ -634,7 +622,7 @@
 
 .btn-google-plus:not(:disabled):not(.disabled):active:focus, .btn-google-plus:not(:disabled):not(.disabled).active:focus,
 .show > .btn-google-plus.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(218, 99, 84, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(211, 72, 54, 0.5);
 }
 
 .btn-flickr {
@@ -650,10 +638,7 @@
 }
 
 .btn-flickr:focus, .btn-flickr.focus {
-  color: #fff;
-  background-color: #d90070;
-  border-color: #cc006a;
-  box-shadow: 0 0 0 0.2rem rgba(255, 38, 150, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5);
 }
 
 .btn-flickr.disabled, .btn-flickr:disabled {
@@ -671,7 +656,7 @@
 
 .btn-flickr:not(:disabled):not(.disabled):active:focus, .btn-flickr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-flickr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 38, 150, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 132, 0.5);
 }
 
 .btn-tumblr {
@@ -687,10 +672,7 @@
 }
 
 .btn-tumblr:focus, .btn-tumblr.focus {
-  color: #fff;
-  background-color: #263d53;
-  border-color: #22364a;
-  box-shadow: 0 0 0 0.2rem rgba(81, 106, 131, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(50, 80, 109, 0.5);
 }
 
 .btn-tumblr.disabled, .btn-tumblr:disabled {
@@ -708,7 +690,7 @@
 
 .btn-tumblr:not(:disabled):not(.disabled):active:focus, .btn-tumblr:not(:disabled):not(.disabled).active:focus,
 .show > .btn-tumblr.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(81, 106, 131, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(50, 80, 109, 0.5);
 }
 
 .btn-xing {
@@ -724,10 +706,7 @@
 }
 
 .btn-xing:focus, .btn-xing.focus {
-  color: #fff;
-  background-color: #013f40;
-  border-color: #013334;
-  box-shadow: 0 0 0 0.2rem rgba(40, 123, 125, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(2, 100, 102, 0.5);
 }
 
 .btn-xing.disabled, .btn-xing:disabled {
@@ -745,7 +724,7 @@
 
 .btn-xing:not(:disabled):not(.disabled):active:focus, .btn-xing:not(:disabled):not(.disabled).active:focus,
 .show > .btn-xing.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 123, 125, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(2, 100, 102, 0.5);
 }
 
 .btn-github {
@@ -761,10 +740,7 @@
 }
 
 .btn-github:focus, .btn-github.focus {
-  color: #fff;
-  background-color: #3570aa;
-  border-color: #3269a0;
-  box-shadow: 0 0 0 0.2rem rgba(94, 150, 205, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(65, 131, 196, 0.5);
 }
 
 .btn-github.disabled, .btn-github:disabled {
@@ -782,7 +758,7 @@
 
 .btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus,
 .show > .btn-github.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(94, 150, 205, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(65, 131, 196, 0.5);
 }
 
 .btn-html5 {
@@ -798,10 +774,7 @@
 }
 
 .btn-html5:focus, .btn-html5.focus {
-  color: #fff;
-  background-color: #c9401a;
-  border-color: #be3c18;
-  box-shadow: 0 0 0 0.2rem rgba(231, 105, 71, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(227, 79, 38, 0.5);
 }
 
 .btn-html5.disabled, .btn-html5:disabled {
@@ -819,7 +792,7 @@
 
 .btn-html5:not(:disabled):not(.disabled):active:focus, .btn-html5:not(:disabled):not(.disabled).active:focus,
 .show > .btn-html5.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(231, 105, 71, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(227, 79, 38, 0.5);
 }
 
 .btn-openid {
@@ -835,10 +808,7 @@
 }
 
 .btn-openid:focus, .btn-openid.focus {
-  color: #fff;
-  background-color: #f5761b;
-  border-color: #f56f0f;
-  box-shadow: 0 0 0 0.2rem rgba(215, 125, 61, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 140, 64, 0.5);
 }
 
 .btn-openid.disabled, .btn-openid:disabled {
@@ -856,7 +826,7 @@
 
 .btn-openid:not(:disabled):not(.disabled):active:focus, .btn-openid:not(:disabled):not(.disabled).active:focus,
 .show > .btn-openid.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(215, 125, 61, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 140, 64, 0.5);
 }
 
 .btn-stack-overflow {
@@ -872,10 +842,7 @@
 }
 
 .btn-stack-overflow:focus, .btn-stack-overflow.focus {
-  color: #fff;
-  background-color: #ec6701;
-  border-color: #df6101;
-  box-shadow: 0 0 0 0.2rem rgba(254, 142, 56, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(254, 122, 21, 0.5);
 }
 
 .btn-stack-overflow.disabled, .btn-stack-overflow:disabled {
@@ -893,7 +860,7 @@
 
 .btn-stack-overflow:not(:disabled):not(.disabled):active:focus, .btn-stack-overflow:not(:disabled):not(.disabled).active:focus,
 .show > .btn-stack-overflow.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 142, 56, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(254, 122, 21, 0.5);
 }
 
 .btn-youtube {
@@ -909,10 +876,7 @@
 }
 
 .btn-youtube:focus, .btn-youtube.focus {
-  color: #fff;
-  background-color: #950000;
-  border-color: #880000;
-  box-shadow: 0 0 0 0.2rem rgba(197, 38, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(187, 0, 0, 0.5);
 }
 
 .btn-youtube.disabled, .btn-youtube:disabled {
@@ -930,7 +894,7 @@
 
 .btn-youtube:not(:disabled):not(.disabled):active:focus, .btn-youtube:not(:disabled):not(.disabled).active:focus,
 .show > .btn-youtube.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(197, 38, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(187, 0, 0, 0.5);
 }
 
 .btn-css3 {
@@ -946,10 +910,7 @@
 }
 
 .btn-css3:focus, .btn-css3.focus {
-  color: #fff;
-  background-color: #015994;
-  border-color: #015187;
-  box-shadow: 0 0 0 0.2rem rgba(39, 133, 196, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(1, 112, 186, 0.5);
 }
 
 .btn-css3.disabled, .btn-css3:disabled {
@@ -967,7 +928,7 @@
 
 .btn-css3:not(:disabled):not(.disabled):active:focus, .btn-css3:not(:disabled):not(.disabled).active:focus,
 .show > .btn-css3.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(39, 133, 196, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(1, 112, 186, 0.5);
 }
 
 .btn-dribbble {
@@ -983,10 +944,7 @@
 }
 
 .btn-dribbble:focus, .btn-dribbble.focus {
-  color: #fff;
-  background-color: #e62a72;
-  border-color: #e51e6b;
-  box-shadow: 0 0 0 0.2rem rgba(237, 103, 155, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(234, 76, 137, 0.5);
 }
 
 .btn-dribbble.disabled, .btn-dribbble:disabled {
@@ -1004,7 +962,7 @@
 
 .btn-dribbble:not(:disabled):not(.disabled):active:focus, .btn-dribbble:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dribbble.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(237, 103, 155, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(234, 76, 137, 0.5);
 }
 
 .btn-instagram {
@@ -1020,10 +978,7 @@
 }
 
 .btn-instagram:focus, .btn-instagram.focus {
-  color: #fff;
-  background-color: #446b8a;
-  border-color: #406582;
-  box-shadow: 0 0 0 0.2rem rgba(107, 146, 178, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(81, 127, 164, 0.5);
 }
 
 .btn-instagram.disabled, .btn-instagram:disabled {
@@ -1041,7 +996,7 @@
 
 .btn-instagram:not(:disabled):not(.disabled):active:focus, .btn-instagram:not(:disabled):not(.disabled).active:focus,
 .show > .btn-instagram.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(107, 146, 178, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(81, 127, 164, 0.5);
 }
 
 .btn-pinterest {
@@ -1057,10 +1012,7 @@
 }
 
 .btn-pinterest:focus, .btn-pinterest.focus {
-  color: #fff;
-  background-color: #aa1b21;
-  border-color: #9f191f;
-  box-shadow: 0 0 0 0.2rem rgba(211, 65, 71, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(203, 32, 39, 0.5);
 }
 
 .btn-pinterest.disabled, .btn-pinterest:disabled {
@@ -1078,7 +1030,7 @@
 
 .btn-pinterest:not(:disabled):not(.disabled):active:focus, .btn-pinterest:not(:disabled):not(.disabled).active:focus,
 .show > .btn-pinterest.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(211, 65, 71, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(203, 32, 39, 0.5);
 }
 
 .btn-vk {
@@ -1094,10 +1046,7 @@
 }
 
 .btn-vk:focus, .btn-vk.focus {
-  color: #fff;
-  background-color: #385474;
-  border-color: #344d6c;
-  box-shadow: 0 0 0 0.2rem rgba(97, 125, 159, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
 }
 
 .btn-vk.disabled, .btn-vk:disabled {
@@ -1115,7 +1064,7 @@
 
 .btn-vk:not(:disabled):not(.disabled):active:focus, .btn-vk:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vk.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(97, 125, 159, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(69, 102, 142, 0.5);
 }
 
 .btn-yahoo {
@@ -1131,10 +1080,7 @@
 }
 
 .btn-yahoo:focus, .btn-yahoo.focus {
-  color: #fff;
-  background-color: #2f016b;
-  border-color: #2a015e;
-  box-shadow: 0 0 0 0.2rem rgba(93, 39, 162, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(64, 1, 145, 0.5);
 }
 
 .btn-yahoo.disabled, .btn-yahoo:disabled {
@@ -1152,7 +1098,7 @@
 
 .btn-yahoo:not(:disabled):not(.disabled):active:focus, .btn-yahoo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-yahoo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(93, 39, 162, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(64, 1, 145, 0.5);
 }
 
 .btn-behance {
@@ -1168,10 +1114,7 @@
 }
 
 .btn-behance:focus, .btn-behance.focus {
-  color: #fff;
-  background-color: #0055f0;
-  border-color: #0050e3;
-  box-shadow: 0 0 0 0.2rem rgba(58, 128, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(23, 105, 255, 0.5);
 }
 
 .btn-behance.disabled, .btn-behance:disabled {
@@ -1189,7 +1132,7 @@
 
 .btn-behance:not(:disabled):not(.disabled):active:focus, .btn-behance:not(:disabled):not(.disabled).active:focus,
 .show > .btn-behance.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(58, 128, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(23, 105, 255, 0.5);
 }
 
 .btn-dropbox {
@@ -1205,10 +1148,7 @@
 }
 
 .btn-dropbox:focus, .btn-dropbox.focus {
-  color: #fff;
-  background-color: #0069bf;
-  border-color: #0062b2;
-  box-shadow: 0 0 0 0.2rem rgba(38, 145, 233, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
 }
 
 .btn-dropbox.disabled, .btn-dropbox:disabled {
@@ -1226,7 +1166,7 @@
 
 .btn-dropbox:not(:disabled):not(.disabled):active:focus, .btn-dropbox:not(:disabled):not(.disabled).active:focus,
 .show > .btn-dropbox.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 145, 233, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 126, 229, 0.5);
 }
 
 .btn-reddit {
@@ -1242,10 +1182,7 @@
 }
 
 .btn-reddit:focus, .btn-reddit.focus {
-  color: #fff;
-  background-color: #d93b00;
-  border-color: #cc3700;
-  box-shadow: 0 0 0 0.2rem rgba(255, 97, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
 }
 
 .btn-reddit.disabled, .btn-reddit:disabled {
@@ -1263,7 +1200,7 @@
 
 .btn-reddit:not(:disabled):not(.disabled):active:focus, .btn-reddit:not(:disabled):not(.disabled).active:focus,
 .show > .btn-reddit.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 97, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 69, 0, 0.5);
 }
 
 .btn-spotify {
@@ -1279,10 +1216,7 @@
 }
 
 .btn-spotify:focus, .btn-spotify.focus {
-  color: #fff;
-  background-color: #619200;
-  border-color: #588500;
-  box-shadow: 0 0 0 0.2rem rgba(142, 195, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(122, 184, 0, 0.5);
 }
 
 .btn-spotify.disabled, .btn-spotify:disabled {
@@ -1300,7 +1234,7 @@
 
 .btn-spotify:not(:disabled):not(.disabled):active:focus, .btn-spotify:not(:disabled):not(.disabled).active:focus,
 .show > .btn-spotify.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(142, 195, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(122, 184, 0, 0.5);
 }
 
 .btn-vine {
@@ -1316,10 +1250,7 @@
 }
 
 .btn-vine:focus, .btn-vine.focus {
-  color: #fff;
-  background-color: #009972;
-  border-color: #008c69;
-  box-shadow: 0 0 0 0.2rem rgba(38, 201, 160, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 143, 0.5);
 }
 
 .btn-vine.disabled, .btn-vine:disabled {
@@ -1337,7 +1268,7 @@
 
 .btn-vine:not(:disabled):not(.disabled):active:focus, .btn-vine:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vine.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 201, 160, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 143, 0.5);
 }
 
 .btn-foursquare {
@@ -1353,10 +1284,7 @@
 }
 
 .btn-foursquare:focus, .btn-foursquare.focus {
-  color: #fff;
-  background-color: #0d5c8c;
-  border-color: #0c5480;
-  box-shadow: 0 0 0 0.2rem rgba(52, 136, 187, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(16, 115, 175, 0.5);
 }
 
 .btn-foursquare.disabled, .btn-foursquare:disabled {
@@ -1374,7 +1302,7 @@
 
 .btn-foursquare:not(:disabled):not(.disabled):active:focus, .btn-foursquare:not(:disabled):not(.disabled).active:focus,
 .show > .btn-foursquare.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(52, 136, 187, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(16, 115, 175, 0.5);
 }
 
 .btn-vimeo {
@@ -1390,10 +1318,7 @@
 }
 
 .btn-vimeo:focus, .btn-vimeo.focus {
-  color: #23282c;
-  background-color: #9bcc32;
-  border-color: #93c130;
-  box-shadow: 0 0 0 0.2rem rgba(150, 186, 75, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(170, 212, 80, 0.5);
 }
 
 .btn-vimeo.disabled, .btn-vimeo:disabled {
@@ -1411,7 +1336,7 @@
 
 .btn-vimeo:not(:disabled):not(.disabled):active:focus, .btn-vimeo:not(:disabled):not(.disabled).active:focus,
 .show > .btn-vimeo.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(150, 186, 75, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(170, 212, 80, 0.5);
 }
 
 .btn-transparent {
