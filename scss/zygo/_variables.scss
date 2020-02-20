@@ -44,9 +44,9 @@ $gray-tint: #8b8b8b;
 $link-tint: #cfe8fd;
 
 // Brand Colors - Social
-$social-facebook: #3b5998;
-$social-twitter: #1da1f2;
-$social-whatsapp: #25d366;
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$whatsapp: #25d366;
 
 $theme-colors: (
   "white": $white,
@@ -85,9 +85,9 @@ $theme-colors: (
   "gray-tint": $gray-tint,
   "link-tint": $link-tint,
 
-  "social-facebook": $social-facebook,
-  "social-twitter": $social-twitter,
-  "social-whatsapp": $social-whatsapp,
+  "facebook": $facebook,
+  "twitter": $twitter,
+  "whatsapp": $whatsapp,
 );
 
 :export {
@@ -127,9 +127,9 @@ $theme-colors: (
   gray-tint: $gray-tint;
   link-tint: $link-tint;
 
-  social-facebook: $social-facebook;
-  social-twitter: $social-twitter;
-  social-whatsapp: $social-whatsapp;
+  facebook: $facebook;
+  twitter: $twitter;
+  whatsapp: $whatsapp;
 }
 
 // TEXTS & FONTS
