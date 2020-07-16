@@ -47047,6 +47047,10 @@ a > .zygo-layout code {
   margin: 0;
 }
 
+.zygo-layout .xslx-icon {
+  color: #17c671;
+}
+
 .zygo-layout .bg-primary,
 .zygo-layout .bg-success,
 .zygo-layout .bg-info,
