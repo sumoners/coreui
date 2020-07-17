@@ -47047,10 +47047,6 @@ a > .zygo-layout code {
   margin: 0;
 }
 
-.zygo-layout .xslx-icon {
-  color: #17c671;
-}
-
 .zygo-layout .bg-primary,
 .zygo-layout .bg-success,
 .zygo-layout .bg-info,
@@ -47847,6 +47843,10 @@ a > .zygo-layout code {
 
 .zygo-layout .modal-content {
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zygo-layout .excel-color {
+  color: #17c671 !important;
 }
 
 .zygo-layout .app .content__wrapper h1[class*="title"] {

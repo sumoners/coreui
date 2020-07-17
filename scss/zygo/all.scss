@@ -61,8 +61,6 @@
 
   @import "../others";
 
-  @import "./third_party_order";
-
   // Utility classes
   @import "../utilities";
 
@@ -76,6 +74,8 @@
   @import "breadcrumb";
   @import "card";
   @import "modal";
+
+  @import "./utilities";
 
   // Companion styles and elements overrides
   @import "overrides";
